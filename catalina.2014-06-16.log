@@ -1,0 +1,533 @@
+Jun 16, 2014 8:08:18 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/travis/.gvm/pkgsets/go1.2/global/overlay/lib:/home/travis/.gvm/pkgsets/go1.2/global/overlay/lib::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jun 16, 2014 8:08:18 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Jun 16, 2014 8:08:19 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8443
+Jun 16, 2014 8:08:19 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1857 ms
+Jun 16, 2014 8:08:19 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jun 16, 2014 8:08:19 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Jun 16, 2014 8:08:19 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor fedora.xml
+Jun 16, 2014 8:08:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jun 16, 2014 8:08:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory manager
+Jun 16, 2014 8:08:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory host-manager
+Jun 16, 2014 8:08:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory solr
+Jun 16, 2014 8:08:45 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: No /solr/home in JNDI
+Jun 16, 2014 8:08:45 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Jun 16, 2014 8:08:45 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for deduced Solr Home: 'solr/'
+Jun 16, 2014 8:08:45 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init()
+Jun 16, 2014 8:08:45 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: No /solr/home in JNDI
+Jun 16, 2014 8:08:45 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Jun 16, 2014 8:08:45 PM org.apache.solr.core.CoreContainer$Initializer initialize
+INFO: looking for solr.xml: /home/travis/islandora_tomcat/solr/solr.xml
+Jun 16, 2014 8:08:45 PM org.apache.solr.core.CoreContainer load
+INFO: Loading CoreContainer using Solr Home: 'solr/'
+Jun 16, 2014 8:08:45 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: 'solr/'
+Jun 16, 2014 8:08:45 PM org.apache.solr.core.CoreContainer create
+INFO: Creating SolrCore '' using instanceDir: solr/.
+Jun 16, 2014 8:08:45 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: 'solr/./'
+Jun 16, 2014 8:08:46 PM org.apache.solr.core.Config getLuceneVersion
+WARNING: the luceneMatchVersion is not specified, defaulting to LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.4 emulation is deprecated and will be removed in 4.0. This parameter will be mandatory in 4.0.
+Jun 16, 2014 8:08:46 PM org.apache.solr.core.SolrConfig <init>
+WARNING: <indexDefaults> and <mainIndex> configuration sections are deprecated (but still work). Please use <indexConfig> instead.
+Jun 16, 2014 8:08:46 PM org.apache.solr.core.SolrConfig <init>
+INFO: Using Lucene MatchVersion: LUCENE_24
+Jun 16, 2014 8:08:46 PM org.apache.solr.core.SolrConfig <init>
+WARNING: solrconfig.xml: <HashDocSet> is deprecated and no longer recommended used.
+Jun 16, 2014 8:08:47 PM org.apache.solr.core.SolrConfig <init>
+WARNING: Deprecated syntax found. <highlighting/> should move to <searchComponent/>
+Jun 16, 2014 8:08:47 PM org.apache.solr.core.SolrConfig <init>
+INFO: Loaded SolrConfig: solrconfig.xml
+Jun 16, 2014 8:08:47 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Reading Solr Schema
+Jun 16, 2014 8:08:47 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Schema name=DemoOnSolr
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created string: org.apache.solr.schema.StrField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created boolean: org.apache.solr.schema.BoolField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created integer: org.apache.solr.schema.IntField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created long: org.apache.solr.schema.LongField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created float: org.apache.solr.schema.FloatField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created double: org.apache.solr.schema.DoubleField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created sint: org.apache.solr.schema.SortableIntField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created slong: org.apache.solr.schema.SortableLongField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created sfloat: org.apache.solr.schema.SortableFloatField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created sdouble: org.apache.solr.schema.SortableDoubleField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created date: org.apache.solr.schema.DateField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StandardTokenizerFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: StandardTokenizerFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created text_fgs: org.apache.solr.schema.TextField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: WhitespaceTokenizerFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created text_ws: org.apache.solr.schema.TextField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: WhitespaceTokenizerFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.SynonymFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: SynonymFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: StopFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WordDelimiterFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.EnglishPorterFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory warnDeprecated
+WARNING: EnglishPorterFilterFactory is deprecated. use PorterStemFilterFactory (Porter1) or SnowballPorterFilterFactory with 'English' (Porter2) instead
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.RemoveDuplicatesTokenFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: WhitespaceTokenizerFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: StopFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WordDelimiterFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.EnglishPorterFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory warnDeprecated
+WARNING: EnglishPorterFilterFactory is deprecated. use PorterStemFilterFactory (Porter1) or SnowballPorterFilterFactory with 'English' (Porter2) instead
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.RemoveDuplicatesTokenFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created text: org.apache.solr.schema.TextField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: WhitespaceTokenizerFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.SynonymFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: SynonymFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: StopFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WordDelimiterFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.EnglishPorterFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory warnDeprecated
+WARNING: EnglishPorterFilterFactory is deprecated. use PorterStemFilterFactory (Porter1) or SnowballPorterFilterFactory with 'English' (Porter2) instead
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.RemoveDuplicatesTokenFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created textTight: org.apache.solr.schema.TextField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.MappingCharFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.KeywordTokenizerFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created mappedLowerText: org.apache.solr.schema.TextField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.MappingCharFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: WhitespaceTokenizerFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.EnglishPorterFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory warnDeprecated
+WARNING: EnglishPorterFilterFactory is deprecated. use PorterStemFilterFactory (Porter1) or SnowballPorterFilterFactory with 'English' (Porter2) instead
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.MappingCharFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: WhitespaceTokenizerFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.EnglishPorterFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory warnDeprecated
+WARNING: EnglishPorterFilterFactory is deprecated. use PorterStemFilterFactory (Porter1) or SnowballPorterFilterFactory with 'English' (Porter2) instead
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.RemoveDuplicatesTokenFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.EdgeNGramFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created edgedText: org.apache.solr.schema.TextField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.KeywordTokenizerFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.TrimFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.PatternReplaceFilterFactory
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created alphaOnlySort: org.apache.solr.schema.TextField
+Jun 16, 2014 8:08:47 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created ignored: org.apache.solr.schema.StrField
+Jun 16, 2014 8:08:47 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: default search field in schema is dc.description
+Jun 16, 2014 8:08:47 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: query parser default operator is OR
+Jun 16, 2014 8:08:47 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: unique key field: PID
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: StopFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: EnglishPorterFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: StopFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: EnglishPorterFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: StopFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: EnglishPorterFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: EnglishPorterFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: EnglishPorterFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+Jun 16, 2014 8:08:47 PM org.apache.solr.core.SolrCore <init>
+INFO: [] Opening new SolrCore at solr/./, dataDir=./solr/data/
+Jun 16, 2014 8:08:47 PM org.apache.solr.core.JmxMonitoredMap <init>
+INFO: JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@3f3aef95
+Jun 16, 2014 8:08:47 PM org.apache.solr.core.SolrCore initListeners
+INFO: [] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=solr,start=0,rows=10}, {q=rocks,start=0,rows=10}, {q=static newSearcher warming query from solrconfig.xml}]}
+Jun 16, 2014 8:08:47 PM org.apache.solr.core.SolrCore initListeners
+INFO: [] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=fast_warm,start=0,rows=10}, {q=static firstSearcher warming query from solrconfig.xml}]}
+Jun 16, 2014 8:08:47 PM org.apache.solr.request.XSLTResponseWriter <init>
+WARNING: org.apache.solr.request.XSLTResponseWriter is deprecated. Please use the corresponding class in org.apache.solr.response
+Jun 16, 2014 8:08:47 PM org.apache.solr.core.SolrCore initWriters
+INFO: created xslt: org.apache.solr.request.XSLTResponseWriter
+Jun 16, 2014 8:08:47 PM org.apache.solr.response.XSLTResponseWriter init
+INFO: xsltCacheLifetimeSeconds=5
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created standard: solr.SearchHandler
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created dismax: solr.SearchHandler
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created partitioned: solr.SearchHandler
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /spellCheckCompRH: solr.SearchHandler
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.SearchHandler
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /elevate: solr.SearchHandler
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update: solr.XmlUpdateRequestHandler
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis: solr.AnalysisRequestHandler
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.CSVRequestHandler
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/csv: solr.CSVRequestHandler
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/: org.apache.solr.handler.admin.AdminHandlers
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/ping: PingRequestHandler
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /debug/dump: solr.DumpRequestHandler
+Jun 16, 2014 8:08:48 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@36e646fd main
+Jun 16, 2014 8:08:48 PM org.apache.solr.update.CommitTracker <init>
+INFO: commitTracker AutoCommit: if uncommited for 1ms; if 1 uncommited docs 
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Initializing spell checkers
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: No queryConverter defined, using default converter
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.QueryElevationComponent inform
+INFO: Loading QueryElevation from: /home/travis/islandora_tomcat/solr/./conf/elevate.xml
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@41f8ed7c
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@3daf89ba
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@4f7b31f9
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@210dfb33
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@1ce6e239
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@7a0e1b01
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting socketTimeout to: 0
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting urlScheme to: http://
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting connTimeout to: 0
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxConnectionsPerHost to: 20
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting corePoolSize to: 0
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maximumPoolSize to: 2147483647
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxThreadIdleTime to: 5
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting sizeOfQueue to: -1
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting fairnessPolicy to: false
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@41f8ed7c
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@3daf89ba
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@4f7b31f9
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@210dfb33
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@1ce6e239
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@7a0e1b01
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting socketTimeout to: 0
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting urlScheme to: http://
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting connTimeout to: 0
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxConnectionsPerHost to: 20
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting corePoolSize to: 0
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maximumPoolSize to: 2147483647
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxThreadIdleTime to: 5
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting sizeOfQueue to: -1
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting fairnessPolicy to: false
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@41f8ed7c
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@3daf89ba
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@4f7b31f9
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@210dfb33
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@1ce6e239
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@7a0e1b01
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting socketTimeout to: 0
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting urlScheme to: http://
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting connTimeout to: 0
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxConnectionsPerHost to: 20
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting corePoolSize to: 0
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maximumPoolSize to: 2147483647
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxThreadIdleTime to: 5
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting sizeOfQueue to: -1
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting fairnessPolicy to: false
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@41f8ed7c
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@3daf89ba
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@4f7b31f9
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@210dfb33
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@1ce6e239
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.SpellCheckComponent@14615776
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@7a0e1b01
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting socketTimeout to: 0
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting urlScheme to: http://
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting connTimeout to: 0
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxConnectionsPerHost to: 20
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting corePoolSize to: 0
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maximumPoolSize to: 2147483647
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxThreadIdleTime to: 5
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting sizeOfQueue to: -1
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting fairnessPolicy to: false
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@36e646fd main
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.CoreContainer register
+INFO: registering core: 
+Jun 16, 2014 8:08:48 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: user.dir=/home/travis/islandora_tomcat
+Jun 16, 2014 8:08:48 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init() done
+Jun 16, 2014 8:08:48 PM org.apache.solr.servlet.SolrServlet init
+INFO: SolrServlet.init()
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: No /solr/home in JNDI
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Jun 16, 2014 8:08:48 PM org.apache.solr.servlet.SolrServlet init
+INFO: SolrServlet.init() done
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: No /solr/home in JNDI
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Jun 16, 2014 8:08:48 PM org.apache.solr.servlet.SolrUpdateServlet init
+INFO: SolrUpdateServlet.init() done
+Jun 16, 2014 8:08:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory fedoragsearch
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=null path=null params={start=0&event=firstSearcher&q=fast_warm&rows=10} hits=0 status=0 QTime=79 
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+query+from+solrconfig.xml} hits=0 status=0 QTime=8 
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener newSearcher
+INFO: Loading spell index for spellchecker: default
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener newSearcher
+INFO: Loading spell index for spellchecker: jarowinkler
+Jun 16, 2014 8:08:48 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener newSearcher
+INFO: Loading spell index for spellchecker: file
+Jun 16, 2014 8:08:48 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@36e646fd main
+Jun 16, 2014 8:08:51 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Jun 16, 2014 8:08:51 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Jun 16, 2014 8:08:51 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/23  config=null
+Jun 16, 2014 8:08:51 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8443
+Jun 16, 2014 8:08:51 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 32002 ms
+Jun 16, 2014 8:09:27 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/travis/islandora_tomcat/solr/data/index,segFN=segments_1,version=1383162941895,generation=1,filenames=[segments_1]
+Jun 16, 2014 8:09:27 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1383162941895
+Jun 16, 2014 8:09:27 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Jun 16, 2014 8:09:27 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[islandora:root]} 0 227
+Jun 16, 2014 8:09:27 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update params={} status=0 QTime=227 
+Jun 16, 2014 8:09:27 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/home/travis/islandora_tomcat/solr/data/index,segFN=segments_1,version=1383162941895,generation=1,filenames=[segments_1]
+	commit{dir=/home/travis/islandora_tomcat/solr/data/index,segFN=segments_2,version=1383162941897,generation=2,filenames=[_0.tis, _0.nrm, _0.fnm, _0.tii, _0.frq, segments_2, _0.fdx, _0.prx, _0.fdt]
+Jun 16, 2014 8:09:27 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1383162941897
+Jun 16, 2014 8:09:27 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@1daf0bae main
+Jun 16, 2014 8:09:27 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Jun 16, 2014 8:09:27 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@1daf0bae main from Searcher@36e646fd main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Jun 16, 2014 8:09:27 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@1daf0bae main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Jun 16, 2014 8:09:27 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@1daf0bae main from Searcher@36e646fd main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Jun 16, 2014 8:09:27 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@1daf0bae main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Jun 16, 2014 8:09:27 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@1daf0bae main from Searcher@36e646fd main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=2,evictions=0,size=2,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Jun 16, 2014 8:09:27 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@1daf0bae main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=2,evictions=0,size=2,warmupTime=14,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Jun 16, 2014 8:09:27 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@1daf0bae main from Searcher@36e646fd main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Jun 16, 2014 8:09:27 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@1daf0bae main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Jun 16, 2014 8:09:27 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@1daf0bae main
+Jun 16, 2014 8:09:27 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=null path=null params={start=0&event=newSearcher&q=solr&rows=10} hits=0 status=0 QTime=1 
+Jun 16, 2014 8:09:27 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=null path=null params={start=0&event=newSearcher&q=rocks&rows=10} hits=0 status=0 QTime=1 
+Jun 16, 2014 8:09:27 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=null path=null params={event=newSearcher&q=static+newSearcher+warming+query+from+solrconfig.xml} hits=0 status=0 QTime=3 
+Jun 16, 2014 8:09:27 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Jun 16, 2014 8:09:27 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@1daf0bae main
+Jun 16, 2014 8:09:27 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@36e646fd main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=2,evictions=0,size=2,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
